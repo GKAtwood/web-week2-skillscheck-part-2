@@ -10,7 +10,11 @@
 
 var sunsetColors = ["brown", "purple", "pink", "red", "orange", "yellow"]
 
-//Code here
+function sunset(arr){
+   arr.splice(0,1, 'blue');
+   return arr
+}
+
 
 
 //////////////////PROBLEM 2////////////////////

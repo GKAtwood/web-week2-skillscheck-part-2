@@ -9,8 +9,14 @@
 //3rd element of the array with the string '42 ducks'. 
 //addMoreDucks should return the array.
 
-//Code here
-
+function addMoreDucks(arr){
+    if(arr.length >= 4){
+        arr.splice(2,1,'42 ducks')
+    }else if(arr.length <= 4){
+       
+    }
+    return arr
+}
 
 //////////////////PROBLEM 2////////////////////
 
@@ -18,8 +24,11 @@
 //and if the array's length is greater than 4, removes 
 //the 3rd element of the array. cutItOut should return the array.
 
-//Code here
-
+function cutItOut(arr){
+    if(arr.length >= 4)
+    arr.splice(2,1)
+    return arr
+}
 
 //////////////////PROBLEM 3////////////////////
 
@@ -27,5 +36,12 @@
 //and finds the element "Tolkn", and changes it to "Tolkien".
 //changeName should return the array.
 
-//Code here
+function changeName(arr){
+  for(let i = 0; i = arr.length; i++){
+      if(arr[i] = 'Tolkn'){
+          return 
+      }
+  }
+
+}
 

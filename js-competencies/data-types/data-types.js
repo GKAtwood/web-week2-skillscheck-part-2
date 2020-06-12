@@ -5,7 +5,7 @@
 // var jsDataTypes = ["bool", "string", "object", "integer", "function", "undefined"]
 // var jsDataTypes = ["boolean", "string", "object", "int", "function"]
 // var jsDataTypes = ["bool", "string", "object", "integer", "function"]
-// var jsDataTypes = ["boolean", "string", "object", "number", "function", "undefined"]
+var jsDataTypes = ["boolean", "string", "object", "number", "function", "undefined"]
 
 
 ///////////////////Problem 2//////////////////
@@ -13,28 +13,30 @@
 //null to a boolean - based on whether or not you like 
 //chocolate!
 
-var iLikeChocolate = null
+var iLikeChocolate = true;
 
 
 ///////////////////Problem 3//////////////////
 //Create a string, and assign it to a variable
 //called myString
 
-//Code here
+let myString = ''
 
 
 ///////////////////Problem 4//////////////////
 //Create an integer, and assign it to a variable
 //called myInt
 
-//Code here
+let myInt = 4
 
 
 ///////////////////Problem 5//////////////////
 //Create a function called myFunction that returns
 //the string "I am a function!"
 
-//Code here
+function myFunction(){
+    return 'I am a function!'
+}
 
 
 ///////////////////Problem 6//////////////////
@@ -43,7 +45,13 @@ var iLikeChocolate = null
 //and a method called whatTeam that returns the team
 //property.
 
-//Code here
+let myObject = {
+    name: 'Gabi',
+    team: 'The Mighty Rubber Ducks',
+    whatTeam: function(){
+        return myObject.team
+    }
+}
 
 
 ///////////////////Problem 7//////////////////
@@ -51,7 +59,7 @@ var iLikeChocolate = null
 //1, "two", { three: 3 }, and as the 4th element 
 //an array literal that contains 4, 5
 
-//Code here
+let myArray = [1, 'two', {three: 3}, [4, 5]]
 
 
 ///////////////////Problem 8//////////////////
@@ -59,13 +67,16 @@ var iLikeChocolate = null
 //parameter, a mystery parameter. whatAmI should
 //return the data type of the mystery parameter.
 
-//Code here
+function whatAmI(){
+
+}
 
 
 ///////////////////Problem 9//////////////////
 //Create a variable called theVoid. Make it null.
 
-//Code here
+let theVoid = null;
+
 
 
 ///////////////////Problem 10//////////////////
@@ -73,7 +84,9 @@ var iLikeChocolate = null
 //an array, and sets the 2nd element of that array
 //to undefined. undefiner should return the array.
 
-//Code here
+function undefiner(arr){
+
+}
 
 
 ///////////////////Problem 11//////////////////
@@ -82,7 +95,9 @@ var iLikeChocolate = null
 //return "FLYING NOCTURNAL MAMMAL MAN!". Otherwise, return the result of
 //the parameter divided by 2.
 
-//Code here
+function nananan(){
+
+}
 
 
 //Now, call nananan with the value NaN, and store the 
@@ -121,27 +136,27 @@ var iLikeChocolate = null
 //Uncomment the correct answers below
 
 //What will 100 || 0 be evaluted to?
-// var answer1 = 100
+var answer1 = 100
 // var answer1 = 0
 
 //What will "Hello" && "Goodbye" be evaluted to?
 // var answer2 = "Hello"
-// var answer2 = "Goodbye"
+var answer2 = "Goodbye"
 
 //What will 14 + "" be evaluted to?
-// var answer3 = "14"
+var answer3 = "14"
 // var answer3 = 14
 
 //What will "14" - 10 be evaluted to?
 // var answer4 = "14"
 // var answer4 = "1410"
-// var answer4 = 4
+var answer4 = 4
 // var answer4 = 1410
 
 //What will ["anne", "bob"] + ["charlie"] be evaluted to?
 // var answer5 = ["anne", "bob", "charlie"]
 // var answer5 = "annebobcharlie"
-// var answer5 = "anne,bobcharlie"
+var answer5 = "anne,bobcharlie"
 // var answer5 = "anne,bob,charlie"
 
 
