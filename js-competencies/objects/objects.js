@@ -72,9 +72,10 @@ var sampleOutput = [
 
 function keyAccessor(arr, obj){
   let emptArr =[];
-  for(let key in obj){
-
+  for(let i = 0; i <arr.length; i++){
+    emptArr.push(Object.keys(people));
   }
+  return emptArr
 }
 
 
@@ -86,10 +87,10 @@ function keyAccessor(arr, obj){
 //the object; and push each value into the empty array.
 //getVals should return the new array.
 
-function getVals (obj){
+function getVals (arr){
  let newArr = [];
- for(let key in obj){
-   newArr.push(obj);
+ for(let i = 0; i< arr.length; i++){
+   newArr.push(arr[i]);
  }
 return newArr
 }

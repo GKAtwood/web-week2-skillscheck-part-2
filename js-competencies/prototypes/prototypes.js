@@ -3,7 +3,8 @@
 
 //Create a prototype for a String called reverse that returns the string but, like, reversed.
 
-//Code here
+
+
 
 
 //////////////////PROBLEM 2////////////////////
@@ -21,5 +22,14 @@ function Person(name, age) {
   this.qualityOfCode = 5;
 }
 
-//Code here
+
+function Person (energy, linesOfCode, qualityOfCode) {
+  let person = Object.create(Person.prototype)
+  person.energy = energy
+  person.linesOfCode = linesOfCode
+
+  return person
+}
+
+
 

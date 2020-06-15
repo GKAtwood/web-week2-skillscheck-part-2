@@ -157,7 +157,7 @@ var norsePantheonLoopScope = ["hela", "odin", "asgardians", "frigga",]
 
 //This array should only contain variables accessible in scope of the 
 //the function valhalla
-var valhallaScope = ['hela', 'watcher', 'response', 'valkyrie']
+var valhallaScope = ['hela', 'watcher', 'response']
 
 // var valhallaScope = ["hela", "odin", "asgardians", "frigga", "watcher", "response", "valkyrie"]
 

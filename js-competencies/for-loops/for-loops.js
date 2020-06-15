@@ -27,9 +27,14 @@
 
   function backwardsGreeting(arr) {
     let greetings = [];
-    //Code here
-  
+    for (let i = arr.length -1; i >=0; i--){
+      return greetings.push(arr[i])
+    }
+  return greetings
   }
+
+
+
 
 
 //////////////////PROBLEM 3////////////////////
@@ -40,6 +45,5 @@
 //the variable i for your for loop
 
   function leapFrog(arr) {
-    //Code here
 
   }

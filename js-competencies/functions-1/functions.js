@@ -53,9 +53,11 @@ let hello = (name)=>{
 //with the string "Yay" and save the result of the function to a 
 //variable called funTimes.
 
-function fun(){
-  
+function fun(strOne){
+  return strOne + "!!!!!";
 }
+
+let funTimes =fun('Yay')
 
 
 ///////////////////Problem 5//////////////////
@@ -85,4 +87,15 @@ function climb() {
   //CODE HERE - DO NOT TOUCH THE CODE ABOVE!
 
 }
+
+
+// function g(n) {
+//   console.log('before: ' + g.arguments[0])
+//   if (n > 0) { f(n) }
+//   console.log('after: ' + g.arguments[0])
+// }
+
+// f(2)
+
+// console.log('returned: ' + g.arguments)
 
