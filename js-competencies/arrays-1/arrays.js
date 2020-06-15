@@ -60,7 +60,7 @@ function getElement(arr, i){
 //to the given value. You do not need to return the array.
 
 function changeElement(arr, i, value){
-    arr
+    arr.splice(1,1, "HEY");
 }
 
 

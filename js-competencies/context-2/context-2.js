@@ -26,12 +26,14 @@ var book2 = {
 // Run the method checkOut on book1, and save it to a
 // variable named book1CheckOut.
 
-// CODE HERE
+
+
+book1.checkOut()
 
 
 // What is the context of running book1.checkOut()?
 // var q1Context = "explicit"
-// var q1Context = 'implicit';
+var q1Context = 'implicit';
 // var q1Context = "default"
 // var q1Context = "new"
 
@@ -44,7 +46,7 @@ var book2 = {
 
 
 // What is the context of running the function checkOut on book1?
-// var q2Context = 'explicit';
+var q2Context = 'explicit';
 // var q2Context = "implicit"
 // var q2Context = "default"
 // var q2Context = "new"
@@ -60,7 +62,7 @@ var book2 = {
 // What is the context of running checkOut()?
 // var q3Context = "explicit"
 // var q3Context = "implicit"
-// var q3Context = 'default';
+var q3Context = 'default';
 // var q3Context = "new"
 
 
@@ -73,7 +75,7 @@ var book2 = {
 
 // What is the context of applying the book1 method
 // checkOut to book2?
-// var q4Context = 'explicit';
+var q4Context = 'explicit';
 // var q4Context = "implicit"
 // var q4Context = "default"
 // var q4Context = "new"

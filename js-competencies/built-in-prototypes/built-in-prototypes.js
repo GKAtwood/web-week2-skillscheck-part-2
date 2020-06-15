@@ -25,10 +25,10 @@ function dragonMapper(arr){
 //cookieLoversOnly should return the filtered array.
   
 function cookieLoversOnly(arr){
-  let newArr = arr.filter(function(element, index, array){
-    
-  })
+  let newArr = arr.filter(arr => arr.length === 'favoriteCookie');
+return newArr
 }
+  
 
 
 //////////////////PROBLEM 3////////////////////
@@ -43,6 +43,7 @@ function cookieLoversOnly(arr){
 
 
   function changeValue(arr, cb){
+    
     
   }
 
@@ -78,9 +79,16 @@ function findProduct(arr){
 // character at index 2 of "wide": "d"
 // cipherize will return: "d"
 
- function cipherize(arr){
-  
- }
+
+function cipherize(arr, str){
+  arr.indexOf(str[2]);
+ str.charAt(0)
+return str
+
+}
+// cipherize(["books", "computers", "paper", "tablets"], "tablets")
+
+// cipherize(["blue", "green", "yellow", "purple", "red"], "red")
 
 
 
@@ -91,4 +99,9 @@ function findProduct(arr){
 //string. Use built-in methods for taking the string 
 //apart, reversing it, and putting it back together again.
 
-  //Code here
+function reverseMe(str){
+  let splitString = str.split("");
+  let reverseArray = splitString.reverse(); 
+  let joinArray = reverseArray.join("");
+  return joinArray;
+}

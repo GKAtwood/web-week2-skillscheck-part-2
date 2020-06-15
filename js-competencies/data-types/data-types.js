@@ -176,25 +176,25 @@ myCopiedStr += " What a beautiful day!"
 
 //What is the value of myArr?
 // var valMyArr = [1, 2, 3, 4]
-// var valMyArr = [1, 25, 3, 4]
+var valMyArr = [1, 25, 3, 4]
 
 //What is the value of myStr?
-// var valMyStr = "Hello, world!"
+var valMyStr = "Hello, world!"
 // var valMyStr = "Hello, world! What a beautiful day!"
 
 //What is the value of myCopiedArr?
 // var valMyCopiedArr = [1, 2, 3, 4]
-// var valMyCopiedArr = [1, 25, 3, 4]
+var valMyCopiedArr = [1, 25, 3, 4]
 
 //What is the value of myCopiedStr?
 // var valMyCopiedStr = "Hello, world!"
-// var valMyCopiedStr = "Hello, world! What a beautiful day!"
+var valMyCopiedStr = "Hello, world! What a beautiful day!"
 
 //Are arrays copied by reference, or by value?
-// var arraysCopiedBy = "reference"
+var arraysCopiedBy = "reference"
 // var arraysCopiedBy = "value"
 
 //Are string copied by reference, or by value?
 // var stringsCopiedBy = "reference"
-// var stringsCopiedBy = "value"
+var stringsCopiedBy = "value"
 

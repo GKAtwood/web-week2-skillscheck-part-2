@@ -25,7 +25,7 @@ function EgyptianGoddesses(name, oversees, strength, weakness) {
 
 var maatCharacteristics = ['Maat', 'Truth and Justice', 'Balancing and Just', 'Exacting in her standards']
 
-//Code here
+let maat = maatCharacteristics
 
 
 
@@ -57,8 +57,18 @@ function TestScores() {
 // Each caveman should have a property called health that is equal to 100 and a property called energy 
 // that is equal to 100.
 
-//Code here
 
+
+
+function User(name) {
+  this.name = name;
+  this.isAdmin = false;
+}
+
+let user = new User("Jack");
+
+alert(user.name); // Jack
+alert(user.isAdmin); // false
 
 // Now create a new Caveman with the constructor function you made called 'larry'. 
 // Larry is 25 and has a 'rock' for a weapon.

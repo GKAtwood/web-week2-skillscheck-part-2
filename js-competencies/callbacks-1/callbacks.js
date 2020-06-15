@@ -22,5 +22,14 @@ function complex(num1, num2) {
   return Math.sin((Math.log(num1) + Math.tan(num2) * 100))
 }
 
+
+
 //Code here
- math(2,3)
+
+function mathResult(cb, num1 ,num2){
+  return cb(num1, num2)
+}
+
+
+
+

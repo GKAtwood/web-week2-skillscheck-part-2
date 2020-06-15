@@ -10,7 +10,7 @@
 
 function addDucks(arr, ind) {
   for(let i = 0; i < arr.length; i++){
-    
+    arr[i] += 'Duck'
   }
 
   //WRITE YOUR FOR-LOOP HERE
@@ -30,6 +30,7 @@ function addDucks(arr, ind) {
 
 if (true) {
   let color = 'red'
+
  
 
 
@@ -55,9 +56,11 @@ const greetingsEarthlings = 'Hello'
 //You MUST use a template string! If you need to
 //look it up, check out the documentation.
 
-function madLib(){
-  
+function madLib(strOne){
+  return `${strOne}, my dear Watson.`
 }
+
+
 
 
 //////////////////PROBLEM 5////////////////////
@@ -85,6 +88,9 @@ var answers = ["Example B", "Example C", "Example D"]
 //take in a string, remove all the spaces, and return the
 //string without spaces.
 
+let cleanUp =(string) =>{
+  return string.split(" ").join("");
+}
 
 //////////////////PROBLEM 7////////////////////
 //Finish the function below. Assume that the
@@ -110,6 +116,6 @@ function whatOcean(obj) {
 //"spaghetti & liver with onions"
 
 
-function leftovers(){
-
+function leftovers(string, ...rest){
+  return string +  " "+ '&' + " "+ rest;
 }

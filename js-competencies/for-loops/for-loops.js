@@ -10,7 +10,10 @@
 
   function addNumbers(value){
       var myNumbers = []
-      //Code here
+      for(let i = 0; i < value.length; i++){
+        myNumbers.push(arr[i])
+      }
+      return myNumbers
       
   }
 

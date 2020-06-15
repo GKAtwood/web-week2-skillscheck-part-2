@@ -37,11 +37,11 @@ function cutItOut(arr){
 //changeName should return the array.
 
 function changeName(arr){
-  for(let i = 0; i = arr.length; i++){
-      if(arr[i] = 'Tolkn'){
-          return 
+  for(let i = 0; i < arr.length; i++){
+      if(arr[i] === 'Tolkn'){
+          arr[i] = 'Tolkien'
       }
   }
-
+    return arr
 }
 
